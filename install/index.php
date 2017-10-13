@@ -27,6 +27,5 @@ define('DIR_CACHE', DIR_SYSTEM . 'storage/cache/');
 
 // Startup
 require_once(DIR_SYSTEM . 'startup.php');
-echo 1;
 
 start('install');
